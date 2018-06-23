@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Inputted UserName: Frnd500]]>
+    </line>
+    <line>
+      <![CDATA[Inputted Password: frnd123]]>
+    </line>
+    <line>
+      <![CDATA[Inputted eMail: frnd560@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Filter Section exists]]>
+    </line>
+    <line>
+      <![CDATA[Registration Status Message: User was successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[Results table exists]]>
+    </line>
+    <line>
+      <![CDATA[Count: 16]]>
+    </line>
+    <line>
+      <![CDATA[Search Results Success]]>
+    </line>
+    <line>
+      <![CDATA[Registration UserName: Frnd500]]>
+    </line>
+    <line>
+      <![CDATA[Registration eMail: frnd560@gmail.com]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11374" started-at="2018-06-23T19:10:25Z" finished-at="2018-06-23T19:10:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11374" started-at="2018-06-23T19:10:25Z" finished-at="2018-06-23T19:10:37Z">
+      <class name="com.customer.filterscreens.CustomerFilterScreen">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.customer.filterscreens.CustomerFilterScreen@3ee69ad8]" name="openBrowser" is-config="true" duration-ms="7208" started-at="2018-06-23T15:10:11Z" finished-at="2018-06-23T15:10:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="openBrowser" is-config="true" duration-ms="7499" started-at="2018-06-23T15:10:18Z" finished-at="2018-06-23T15:10:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="gotoNewCustomerScreen()[pri:1, instance:com.customer.filterscreens.CustomerFilterScreen@3ee69ad8]" name="gotoNewCustomerScreen" duration-ms="541" started-at="2018-06-23T15:10:25Z" finished-at="2018-06-23T15:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoNewCustomerScreen -->
+        <test-method status="PASS" signature="filterTest()[pri:3, instance:com.customer.filterscreens.CustomerFilterScreen@3ee69ad8]" name="filterTest" duration-ms="3168" started-at="2018-06-23T15:10:27Z" finished-at="2018-06-23T15:10:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Filter Section exists]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterTest -->
+        <test-method status="PASS" signature="filterResultTest()[pri:4, instance:com.customer.filterscreens.CustomerFilterScreen@3ee69ad8]" name="filterResultTest" duration-ms="6010" started-at="2018-06-23T15:10:31Z" finished-at="2018-06-23T15:10:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Results table exists]]>
+            </line>
+            <line>
+              <![CDATA[Count: 16]]>
+            </line>
+            <line>
+              <![CDATA[Search Results Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterResultTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.customer.filterscreens.CustomerFilterScreen@3ee69ad8]" name="closeBrowser" is-config="true" duration-ms="2346" started-at="2018-06-23T15:10:37Z" finished-at="2018-06-23T15:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="closeBrowser" is-config="true" duration-ms="1125" started-at="2018-06-23T15:10:39Z" finished-at="2018-06-23T15:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.customer.filterscreens.CustomerFilterScreen -->
+      <class name="com.customer.newscreens.NewCustomerScreens">
+        <test-method status="PASS" signature="gotoNewCustomerScreen()[pri:1, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="gotoNewCustomerScreen" duration-ms="769" started-at="2018-06-23T15:10:26Z" finished-at="2018-06-23T15:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoNewCustomerScreen -->
+        <test-method status="PASS" signature="newUserReg()[pri:2, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="newUserReg" duration-ms="683" started-at="2018-06-23T15:10:27Z" depends-on-methods="com.customer.newscreens.NewCustomerScreens.gotoNewCustomerScreen" finished-at="2018-06-23T15:10:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inputted UserName: Frnd500]]>
+            </line>
+            <line>
+              <![CDATA[Inputted Password: frnd123]]>
+            </line>
+            <line>
+              <![CDATA[Inputted eMail: frnd560@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newUserReg -->
+        <test-method status="PASS" signature="verifyReg()[pri:3, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="verifyReg" duration-ms="63" started-at="2018-06-23T15:10:31Z" finished-at="2018-06-23T15:10:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration Status Message: User was successfully created.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyReg -->
+        <test-method status="PASS" signature="verifyCustomer()[pri:4, instance:com.customer.newscreens.NewCustomerScreens@f679798]" name="verifyCustomer" duration-ms="76" started-at="2018-06-23T15:10:37Z" finished-at="2018-06-23T15:10:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration UserName: Frnd500]]>
+            </line>
+            <line>
+              <![CDATA[Registration eMail: frnd560@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCustomer -->
+      </class> <!-- com.customer.newscreens.NewCustomerScreens -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
