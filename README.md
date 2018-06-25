@@ -1,0 +1,1 @@
+To run the projects please download and import the projects to eclipse and then run testng.xml file
